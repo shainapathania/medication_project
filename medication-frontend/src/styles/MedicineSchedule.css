@@ -1,0 +1,56 @@
+/* MedicineSchedule.css */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+  }
+  
+  table th, table td {
+    text-align: center;
+    padding: 12px;
+    border: 1px solid #ddd;
+  }
+  
+  table th {
+    background-color: #f8f9fa;
+  }
+  
+  table td {
+    font-size: 16px;
+  }
+  
+  .table-success {
+    background-color: #d4edda !important;
+  }
+  
+  .btn {
+    padding: 8px 16px;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+  }
+  
+  .btn:disabled {
+    cursor: not-allowed;
+    opacity: 0.6;
+  }
+  
+  @media (max-width: 768px) {
+    table th, table td {
+      font-size: 14px;
+      padding: 8px;
+    }
+  }
+  
